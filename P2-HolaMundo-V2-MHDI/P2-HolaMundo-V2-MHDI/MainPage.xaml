@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P2_HolaMundo_V2_MHDI.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Práctica 2. Hola Mundo V2" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Elabora: Derek Isai Morales Hurtado" HorizontalTextAlignment="Center" FontSize="Title" Padding="30,10,30,10"/>
+        <Button HorizontalOptions="Center"
+                VerticalOptions="Center"
+                Text="Mostrar Mensaje"
+                Padding="30"
+                Clicked="Button_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
