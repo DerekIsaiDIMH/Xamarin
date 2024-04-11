@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P6AlbumMHDI.MainPage">
+
+    <StackLayout BackgroundColor="CadetBlue">
+        <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+            <Label Text="Practica 6. Album de fotos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+        </Frame>
+        <Label Text="Fotos" FontSize="Title" Padding="30,10,30,10" TextColor="Black"/>
+        <Image Source="avatar.jpg" ></Image>
+        <Button Text="Ver mis fotos" Clicked="ver_fotos"></Button>
+        <Label Text="Soy Derek y estas son mis fotos favoritas" FontSize="16" Padding="30,0,30,0" TextColor="Black"/>
+        <Label Text="Elabora: Derek Isai Morales Hurtado" FontSize="16" Padding="30,0,30,0" TextColor="Black"/>
+        
+    </StackLayout>
+
+</ContentPage>

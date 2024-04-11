@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>P3_SumaDosNumeros_MHDI.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>P3_SumaDosNumeros_MHDI.iOS</AssemblyName>
+    <AssemblyName>P3-SumaDosNumeros-MHDI.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>

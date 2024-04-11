@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{238B7E44-A67B-4B48-AE90-B63C27BDAFE6}</ProjectGuid>
+    <ProjectGuid>{41C68AB6-A6BD-4F40-9A40-789CEA9C02C6}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>P5_CalcularIMC_MHDI.iOS</RootNamespace>
+    <RootNamespace>P6AlbumMHDI.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>P5-CalcularIMC-MHDI.iOS</AssemblyName>
+    <AssemblyName>P6AlbumMHDI.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>
@@ -128,9 +128,9 @@
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
-    <ProjectReference Include="..\P5-CalcularIMC-MHDI\P5-CalcularIMC-MHDI.csproj">
-      <Project>{53F75696-F5FF-4E74-A386-9144BEDC1F19}</Project>
-      <Name>P5-CalcularIMC-MHDI</Name>
+    <ProjectReference Include="..\P6AlbumMHDI\P6AlbumMHDI.csproj">
+      <Project>{73E9283E-5B44-4530-8A5C-A37D4AF014AD}</Project>
+      <Name>P6AlbumMHDI</Name>
     </ProjectReference>
   </ItemGroup>
 </Project>

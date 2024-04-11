@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>P2_HolaMundo_V2_MHDI.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>P2_HolaMundo_V2_MHDI.iOS</AssemblyName>
+    <AssemblyName>P2-HolaMundo-V2-MHDI.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>

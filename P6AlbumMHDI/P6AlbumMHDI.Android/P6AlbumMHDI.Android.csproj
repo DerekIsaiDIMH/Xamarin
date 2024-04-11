@@ -3,12 +3,12 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{60BA1C79-F975-4CDF-85B1-63E70F4FE001}</ProjectGuid>
+    <ProjectGuid>{88B65255-AED3-42F5-9A57-AB5F3E04595F}</ProjectGuid>
     <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{c9e5eea5-ca05-42a1-839b-61506e0a37df}</TemplateGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>P5_CalcularIMC_MHDI.Droid</RootNamespace>
-    <AssemblyName>P5-CalcularIMC-MHDI.Android</AssemblyName>
+    <RootNamespace>P6AlbumMHDI.Droid</RootNamespace>
+    <AssemblyName>P6AlbumMHDI.Android</AssemblyName>
     <Deterministic>True</Deterministic>
     <AndroidApplication>True</AndroidApplication>
     <AndroidResgenFile>Resources\Resource.designer.cs</AndroidResgenFile>
@@ -85,13 +85,25 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\drawable\" />
+    <AndroidResource Include="Resources\drawable\foto1.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\P5-CalcularIMC-MHDI\P5-CalcularIMC-MHDI.csproj">
-      <Project>{53F75696-F5FF-4E74-A386-9144BEDC1F19}</Project>
-      <Name>P5-CalcularIMC-MHDI</Name>
+    <ProjectReference Include="..\P6AlbumMHDI\P6AlbumMHDI.csproj">
+      <Project>{73E9283E-5B44-4530-8A5C-A37D4AF014AD}</Project>
+      <Name>P6AlbumMHDI</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\avatar.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\foto21.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\foto3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\foto4.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>

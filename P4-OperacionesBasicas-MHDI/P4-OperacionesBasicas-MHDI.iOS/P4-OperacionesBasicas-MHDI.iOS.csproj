@@ -11,7 +11,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>P4_OperacionesBasicas_MHDI.iOS</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>P4_OperacionesBasicas_MHDI.iOS</AssemblyName>
+    <AssemblyName>P4-OperacionesBasicas-MHDI.iOS</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
     <ProvisioningType>automatic</ProvisioningType>

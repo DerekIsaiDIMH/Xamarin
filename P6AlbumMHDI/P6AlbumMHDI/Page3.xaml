@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P6AlbumMHDI.Page3">
+    <ContentPage.Content>
+        <StackLayout Padding="10,12" BackgroundColor="Black">
+            <StackLayout Orientation="Vertical" BackgroundColor="Beige">
+                <Image Source="foto4.jpg" WidthRequest="225" HeightRequest="220"></Image>
+            </StackLayout>
+            <Button Text="Inicio" Clicked="Inicio"></Button>
+            <Label Text="Este es mi favorito" TextColor="Beige" FontSize="Medium"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

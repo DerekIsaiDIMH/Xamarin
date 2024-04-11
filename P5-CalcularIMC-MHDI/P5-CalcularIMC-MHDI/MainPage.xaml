@@ -5,7 +5,7 @@
 
     <StackLayout>
         <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
-            <Label Text="pRACTICA 5. Calcular IMC" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            <Label Text="Practica 5. Calcular IMC" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
         </Frame>
         <Label Text="Elabora: Derek Isai Morales Hurtado" FontSize="Title" Padding="30,10,30,10"/>
         <Entry x:Name="Altura"

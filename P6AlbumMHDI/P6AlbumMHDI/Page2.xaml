@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="P6AlbumMHDI.Page2">
+    <ContentPage.Content>
+        <StackLayout Padding="10,12" BackgroundColor="Black">
+            <StackLayout Orientation="Vertical" BackgroundColor="Beige">
+                <Image Source="foto1.jpg" WidthRequest="225" HeightRequest="220"></Image>
+                <Image Source="foto21.jpg" WidthRequest="225" HeightRequest="200"></Image>
+                <Image Source="foto3.jpg" WidthRequest="225" HeightRequest="200"></Image>
+            </StackLayout>
+            <Button Text="Avanzar" Clicked="Avanzar"></Button>
+            <Label Text="Me agradan los carros..." TextColor="Beige" FontSize="Medium"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
